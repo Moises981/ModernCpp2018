@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/pc/Homework_cpp/homework_2/lib/libgtest.a  CMakeFiles/gtest.dir/src/gtest-all.cc.o
+/usr/bin/ranlib /home/pc/Homework_cpp/homework_2/lib/libgtest.a

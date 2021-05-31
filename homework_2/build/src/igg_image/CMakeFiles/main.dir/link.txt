@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -fPIC -O3  -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../../bin/main -Wl,-rpath,/home/pc/Homework_cpp/homework_2/lib ../../../lib/libimage.a ../../../lib/libio_tools.so 
