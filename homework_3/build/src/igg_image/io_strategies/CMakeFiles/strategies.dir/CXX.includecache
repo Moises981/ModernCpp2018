@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/ppm_strategy.cpp
+ppm_strategy.h
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/ppm_strategy.h
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+strategy.h
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/strategy.h
+
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/ppm_strategy.h
+strategy.h
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/strategy.h
+
+/home/pc/ModernCpp2018/homework_3/src/igg_image/io_strategies/strategy.h
+string
+-
+vector
+-
+
