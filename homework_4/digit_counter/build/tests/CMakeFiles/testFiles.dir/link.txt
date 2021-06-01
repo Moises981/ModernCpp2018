@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -fPIC -O3   CMakeFiles/testFiles.dir/digit_counting_test.cpp.o  -o ../../bin/testFiles ../../lib/libdigitLib.a ../../lib/libgtest.a ../../lib/libgtest_main.a ../../lib/libgtest.a -pthread 

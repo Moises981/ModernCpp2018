@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pc/ModernCpp2018/homework_4/digit_counter/src/digit_counting/digit_counting.cpp
+digit_counting.h
+/home/pc/ModernCpp2018/homework_4/digit_counter/src/digit_counting/digit_counting.h
+cmath
+-
+iostream
+-
+
+/home/pc/ModernCpp2018/homework_4/digit_counter/src/digit_counting/digit_counting.h
+

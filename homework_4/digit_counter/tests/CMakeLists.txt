@@ -1,0 +1,5 @@
+add_subdirectory(/usr/src/gtest ${PROJECT_BINARY_DIR}/gtest)
+include(CTest)
+add_executable(testFiles digit_counting_test.cpp)
+target_link_libraries(testFiles	digitLib gtest gtest_main)
+add_test(testFiles /tests/digit_counting_test)

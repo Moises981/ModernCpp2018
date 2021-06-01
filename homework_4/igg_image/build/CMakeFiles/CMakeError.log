@@ -1,0 +1,33 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pc/ModernCpp2018/homework_4/igg_image/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a97fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a97fa.dir/build.make CMakeFiles/cmTC_a97fa.dir/build
+make[1]: Entering directory '/home/pc/ModernCpp2018/homework_4/igg_image/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a97fa.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a97fa.dir/CheckSymbolExists.c.o   -c /home/pc/ModernCpp2018/homework_4/igg_image/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a97fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a97fa.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a97fa.dir/CheckSymbolExists.c.o  -o cmTC_a97fa 
+/usr/bin/ld: CMakeFiles/cmTC_a97fa.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_a97fa.dir/build.make:87: cmTC_a97fa] Error 1
+make[1]: Leaving directory '/home/pc/ModernCpp2018/homework_4/igg_image/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_a97fa/fast] Error 2
+
+File /home/pc/ModernCpp2018/homework_4/igg_image/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

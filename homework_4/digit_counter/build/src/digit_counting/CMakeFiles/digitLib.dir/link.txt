@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libdigitLib.a  CMakeFiles/digitLib.dir/digit_counting.cpp.o
+/usr/bin/ranlib ../../../lib/libdigitLib.a
