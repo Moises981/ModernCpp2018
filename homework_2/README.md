@@ -12,21 +12,21 @@
 
 ## Build
 Create the folder to build
-	```
-	mkdir build
-	cd build
-	```
+```
+mkdir build
+cd build
+```
 	Build CMake
-	```
-	cmake ..
-	make
-	```
+```
+cmake ..
+make
+```
 ## Run main program
-	```
-	./bin/main
-	```
+```
+./bin/main
+```
 ## Run Test program
-	```
-	./bin/test_img
-	```
+```
+./bin/test_img
+```
 
