@@ -12,6 +12,9 @@ echo "Data has" $grepWord "dolor and dalor words"
 dataWords=$(wc -w < ../data/data.dat)
 echo "Data has" $dataWords "words"
 
+# Count words that start with mol inside data.dat
+molWords=$(grep -E '\bmol' ../data/data.dat | wc -w)
+echo "Data has" $molWords "mol words"
 # Count files inside test_folder
 filesInside=$(ls ../data/test_folder |wc -w)
 echo "Test Folder has" $filesInside "files"
